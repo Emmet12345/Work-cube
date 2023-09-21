@@ -1,0 +1,10 @@
+//Code For Workcube
+
+#include <PRIZM.h>   //Link up the library
+PRIZM Mrbeast;         //Declare object (reference to prizm)
+void start(){
+  
+}
+void loop(){
+  
+}
