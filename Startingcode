@@ -1,12 +1,11 @@
 //Code For Workcube
-
 #include <PRIZM.h>   //Link up the library
 PRIZM Mrbeast;         //Declare object (reference to prizm)
+
 void start(){
-   Mrbeast.setMotorPower(1,100); //100% speed
+    prizm.PrizmBegin();
+  Mrbeast.setMotorPower(1,100); //100% speed
   delay (2000);
   Mrbeast.setMotorPower(1,125); //125 means BRAKE
 }
 void loop(){
-  
-}
